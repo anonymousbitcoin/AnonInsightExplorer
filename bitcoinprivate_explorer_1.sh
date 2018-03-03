@@ -5,11 +5,11 @@ sudo apt-get -y install \
       autoconf libtool ncurses-dev unzip git python \
       zlib1g-dev wget bsdmainutils automake
 
-#clone zclassic daemon and build
-git clone https://github.com/z-classic/zclassic.git
-cd zclassic
-./zcutil/fetch-params.sh
-./zcutil/build.sh -j$(nproc)
+#clone bitcoin private daemon and build
+git clone https://github.com/BTCPrivate/BitcoinPrivate.git
+cd BitcoinPrivate
+./btcputil/fetch-params.sh
+./btcputil/build.sh -j$(nproc)
 
 # install npm
 cd ..
@@ -22,4 +22,4 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 
 echo "logout of this shell, log back in and run:"
-echo "sh zclassic_explorer_2.sh"
+echo "sh bitcoinprivate_explorer_2.sh"
