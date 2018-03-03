@@ -1,4 +1,4 @@
-# Bitcoin Private Explorer
+# Bitcoin Private Explorer - DO NOT USE YET, STILL UPDATING DEPENDENCIES 
 Getting Started - Tested on Ubuntu and Debian (server)
 
 Setup using Bitcoin Private daemon version - v1.0.10-1
