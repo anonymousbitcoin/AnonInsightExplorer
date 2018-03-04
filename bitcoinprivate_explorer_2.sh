@@ -19,7 +19,7 @@ npm install interbiznw-btcpcontrib/bitcore-node-btcp
 cd bitcoinprivate-explorer
 
 # install patched insight api/ui (branched and patched from https://github.com/BTCPrivate/insight-api-bitcoinprivate & https://github.com/BTCPrivate/insight-ui-bitcoinprivate)
-../node_modules/bitcore-node-bitcoinprivate/bin/bitcore-node install interbiznw-btcpcontrib/insight-api-btcp BTCPrivate/insight-ui-bitcoinprivate
+../node_modules/bitcore-node-btcp/bin/bitcore-node install interbiznw-btcpcontrib/insight-api-btcp interbiznw-btcpcontrib/insight-ui-btcp
 
 # create bitcore config file for bitcore and btcpd
 # REPLACE "datadir" and "exec" with actual values of "/home/user"
@@ -56,4 +56,4 @@ EOF
 
 echo "Start the block explorer, open in your browser http://server_ip:3001"
 echo "Run the following line as one line of commands to start the block explorer"
-echo "nvm use v4; cd bitcoinprivate-explorer; ./node_modules/bitcore-node-bitcoinprivate/bin/bitcore-node start"
+echo "nvm use v4; cd bitcoinprivate-explorer; ./node_modules/bitcore-node-btcp/bin/bitcore-node start"
