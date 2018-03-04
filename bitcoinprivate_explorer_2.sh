@@ -12,10 +12,10 @@ nvm install v4
 sudo apt-get -y install libzmq3-dev
 
 # install bitcore (branched and patched from )
-npm install BTCPrivate/bitcore-node-bitcoinprivate
+npm install interbiznw-btcpcontrib/bitcore-node-btcp
 
 # create bitcore node
-./node_modules/bitcore-node-bitcoinprivate/bin/bitcore-node create bitcoinprivate-explorer
+./node_modules/bitcore-node-btcp/bin/bitcore-node create bitcoinprivate-explorer
 cd bitcoinprivate-explorer
 
 # install patched insight api/ui (branched and patched from https://github.com/BTCPrivate/insight-api-bitcoinprivate & https://github.com/BTCPrivate/insight-ui-bitcoinprivate)
