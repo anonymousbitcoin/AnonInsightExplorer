@@ -6,8 +6,7 @@ Will not work on older btcp/Bitcoin Private versions due to different port numbe
 
 
 ```
-git clone https://github.com/interbiznw/BitcoinPrivate_Explorer.git
-BitcoinPrivate_Explorer
+git clone -b explorer-btcp https://github.com/BTCPrivate/BitcoinPrivate.git
 ```
 
 ```
