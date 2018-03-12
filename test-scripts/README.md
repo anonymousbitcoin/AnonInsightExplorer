@@ -1,1 +1,1 @@
-test scripts, do not use
+#test scripts, do not use
