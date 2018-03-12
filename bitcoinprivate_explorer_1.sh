@@ -6,7 +6,7 @@ sudo apt-get -y install \
       zlib1g-dev wget bsdmainutils automake
 
 #clone bitcoin private daemon and build
-git clone -b testnet-btcwallet https://github.com/BTCPrivate/BitcoinPrivate.git
+git clone -b explorer-btcp https://github.com/BTCPrivate/BitcoinPrivate.git
 cd BitcoinPrivate
 ./btcputil/fetch-params.sh
 ./btcputil/build.sh -j$(nproc)
