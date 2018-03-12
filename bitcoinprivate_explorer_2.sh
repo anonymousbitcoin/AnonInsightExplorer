@@ -18,19 +18,19 @@ npm install interbiznw-btcpcontrib/bitcore-node-btcp
 ./node_modules/bitcore-node-btcp/bin/bitcore-node create bitcoinprivate-explorer
 cd bitcoinprivate-explorer
 
-# install patched insight api/ui (branched and patched from https://github.com/BTCPrivate/insight-api-bitcoinprivate & https://github.com/BTCPrivate/insight-ui-bitcoinprivate)
+# install patched insight api/ui
 ../node_modules/bitcore-node-btcp/bin/bitcore-node install interbiznw-btcpcontrib/insight-api-btcp interbiznw-btcpcontrib/insight-ui-btcp
 
 # create bitcore config file for bitcore and btcpd
 # REPLACE "datadir" and "exec" with actual values of "/home/user"
 cat << EOF > bitcore-node.json
 {
-  "network": "mainnet",
+  "network": "livenet",
   "port": 3001,
   "services": [
     "bitcoind",
-    "insight-api-bitcoinprivate",
-    "insight-ui-bitcoinprivate",
+    "insight-api-btcp",
+    "insight-ui-btcp",
     "web"
   ],
   "servicesConfig": {
@@ -40,16 +40,15 @@ cat << EOF > bitcore-node.json
         "exec": "/home/ubuntu/BitcoinPrivate/src/btcpd"
       }
     },
-    "insight-ui-bitcoinprivate": {
+    "insight-ui-btcp": {
       "apiPrefix": "api",
       "routePrefix": ""
     },
-    "insight-api-bitcoinprivate": {
+    "insight-api-btcp": {
       "routePrefix": "api"
     }
   }
 }
-
 EOF
 
 
