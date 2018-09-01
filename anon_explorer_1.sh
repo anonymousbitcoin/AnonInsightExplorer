@@ -6,10 +6,10 @@ sudo apt-get -y install \
       zlib1g-dev wget bsdmainutils automake
 
 #clone bitcoin private daemon and build
-git clone -b explorer-btcp https://github.com/BTCPrivate/BitcoinPrivate.git
-cd BitcoinPrivate
-./btcputil/fetch-params.sh
-./btcputil/build.sh -j$(nproc)
+git clone -b explorer-anon https://github.com/anonymousbitcoin/anon
+cd anon
+./anonutil/fetch-params.sh
+./anonutil/build.sh -j$(nproc)
 
 # install npm
 cd ..
@@ -22,4 +22,4 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 
 echo "logout of this shell, log back in and run:"
-echo "sh bitcoinprivate_explorer_2.sh"
+echo "sh anon_explorer_1.sh"
