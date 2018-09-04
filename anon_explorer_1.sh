@@ -6,7 +6,7 @@ sudo apt-get -y install \
       zlib1g-dev wget bsdmainutils automake
 
 #clone bitcoin private daemon and build
-git clone -b explorer-anon https://github.com/anonymousbitcoin/anon
+git clone -b feature/bitcore-integration https://github.com/anonymousbitcoin/anon
 cd anon
 ./anonutil/fetch-params.sh
 ./anonutil/build.sh
