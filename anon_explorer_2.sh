@@ -16,7 +16,7 @@ npm install anonymousbitcoin/bitcore-node-anon
 
 # create bitcore node
 ./node_modules/bitcore-node-anon/bin/bitcore-node create anon-explorer
-cd bitcoinprivate-explorer
+cd anon-explorer
 
 # install patched insight api/ui
 ../node_modules/bitcore-node-anon/bin/bitcore-node install anonymousbitcoin/insight-api-anon anonymousbitcoin/insight-ui-anon
