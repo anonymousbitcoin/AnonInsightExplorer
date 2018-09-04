@@ -37,7 +37,7 @@ cat << EOF > bitcore-node.json
     "bitcoind": {
       "spawn": {
         "datadir": "/home/ubuntu/.anon",
-        "exec": "/home/ubuntu/BitcoinPrivate/src/anond"
+        "exec": "/home/ubuntu/anon/src/anond"
       }
     },
     "insight-ui-anon": {
