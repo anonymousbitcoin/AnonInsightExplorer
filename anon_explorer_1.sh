@@ -9,7 +9,7 @@ sudo apt-get -y install \
 git clone -b explorer-anon https://github.com/anonymousbitcoin/anon
 cd anon
 ./anonutil/fetch-params.sh
-./anonutil/build.sh -j$(nproc)
+./anonutil/build.sh
 
 # install npm
 cd ..
