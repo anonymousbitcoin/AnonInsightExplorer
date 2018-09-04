@@ -1,4 +1,4 @@
-# ANON Explorer - DO NOT USE YET, STILL UPDATING DEPENDENCIES 
+# ANON Explorer
 Getting Started - Tested on Ubuntu and Debian (server)
 
 Setup using ANON daemon version - v1.0.10-1
