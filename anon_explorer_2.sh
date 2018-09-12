@@ -6,7 +6,7 @@ WHO=$(whoami)
 # install npm v4
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
-nvm install v4
+nvm install v8.12
 
 # install ZeroMQ libraries
 sudo apt-get -y install libzmq3-dev
