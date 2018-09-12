@@ -3,7 +3,7 @@
 
 WHO=$(whoami)
 
-# install npm v4
+# install npm v8.12
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 nvm install v8.12
