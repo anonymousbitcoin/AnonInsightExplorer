@@ -55,4 +55,4 @@ EOF
 
 echo "Start the block explorer, open in your browser http://server_ip:3001"
 echo "Run the following line as one line of commands to start the block explorer"
-echo "nvm use v4; cd anon-explorer; ./node_modules/bitcore-node-anon/bin/bitcore-node start"
+echo "nvm use v8.12; cd anon-explorer; ./node_modules/bitcore-node-anon/bin/bitcore-node start"
