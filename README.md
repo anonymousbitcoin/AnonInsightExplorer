@@ -4,7 +4,7 @@ Getting Started - Tested on Ubuntu and Debian (server)
 Setup using ANON daemon version - v1.0.10-1
 
 ```
-git clone -b explorer-anon https://github.com/anonymousbitcoin/AnonInsightExplorer.git
+git clone https://github.com/anonymousbitcoin/AnonInsightExplorer.git
 ```
 
 ```
